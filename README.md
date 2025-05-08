@@ -2,8 +2,6 @@
 
 A real-time cryptocurrency price tracker that displays live updates from Binance WebSocket API, similar to CoinMarketCap.
 
-Live link : https://livecurrencytracker.netlify.app/
-
 ## Features
 
 - **Real-time Data**: Uses Binance WebSocket API for live price updates
@@ -20,7 +18,7 @@ Live link : https://livecurrencytracker.netlify.app/
 
 ## Demo
 
-[Live Demo Link][https://livecurrencytracker.netlify.app/]
+https://livecurrencytracker.netlify.app/
 
 ## Setup Instructions
 
