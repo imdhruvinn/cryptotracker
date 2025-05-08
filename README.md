@@ -2,6 +2,8 @@
 
 A real-time cryptocurrency price tracker that displays live updates from Binance WebSocket API, similar to CoinMarketCap.
 
+Live link : https://livecurrencytracker.netlify.app/
+
 ## Features
 
 - **Real-time Data**: Uses Binance WebSocket API for live price updates
@@ -53,9 +55,6 @@ The build files will be in the `dist` directory.
 - **Components**: Modular UI components in `src/components`
 - **Redux Store**: State management in `src/app/store.js`
 - **Crypto Slice**: Main redux slice in `src/features/crypto/cryptoSlice.js`
-
-
-Live link : https://livecurrencytracker.netlify.app/
 - **WebSocket API**: Connection handling in `src/features/crypto/cryptoAPI.js`
 
 ## License
