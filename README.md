@@ -20,7 +20,7 @@ Live link : https://livecurrencytracker.netlify.app/
 
 ## Demo
 
-[Live Demo Link](your-demo-link-here)
+[Live Demo Link][(https://livecurrencytracker.netlify.app/)]
 
 ## Setup Instructions
 
