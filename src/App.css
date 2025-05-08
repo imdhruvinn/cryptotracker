@@ -1,0 +1,133 @@
+/* App.css - Global styles for the Crypto Tracker app */
+
+:root {
+  --background-color: #121212;
+  --card-bg: #1e1e1e;
+  --border-color: #333;
+  --hover-color: #2d2d2d;
+  --text-primary: #fff;
+  --text-secondary: #aaa;
+  --accent-color: #3861fb;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #111827;
+  color: white;
+  /* Remove scrollbar hiding */
+  /* scrollbar-width: none; */
+  /* -ms-overflow-style: none; */
+}
+
+.container {
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Currency selector styling */
+.currency-selector {
+  background-color: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 0.25rem;
+  padding: 0.5rem;
+  color: var(--text-primary);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.currency-selector:hover,
+.currency-selector:focus {
+  border-color: var(--accent-color);
+  outline: none;
+}
+
+/* Chart container styling */
+.chart-cell {
+  position: relative;
+  height: 42px;
+}
+
+/* Animate price changes */
+.price-change {
+  transition: color 0.3s ease;
+}
+
+/* Hover effects for interactive elements */
+button, select, .interactive {
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+button:hover, select:hover, .interactive:hover {
+  opacity: 0.8;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .container {
+    padding: 0 0.5rem;
+  }
+}
+
+/* Chart container styles */
+.chart-container {
+  width: 100%;
+  height: 10rem;
+  position: relative;
+}
+
+/* Animation to prevent flickering */
+.chart-animate {
+  transition: opacity 0.3s ease;
+}
+
+/* Card styles */
+.crypto-card {
+  border-radius: 0.5rem;
+  background-color: #1f2937;
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.crypto-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+/* Hover effects */
+.hover-effect {
+  transition: all 0.2s ease;
+}
+
+.hover-effect:hover {
+  opacity: 0.8;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .chart-container {
+    height: 8rem;
+  }
+}
+
+/* Table styles for proper display */
+@media (min-width: 1280px) {
+  .crypto-table-container {
+    min-width: 100%;
+    overflow-x: visible;
+  }
+}
+
+/* Remove global scrollbar hiding */
+/* ::-webkit-scrollbar {
+  display: none;
+} */
+
+/* ... existing code ... */ 

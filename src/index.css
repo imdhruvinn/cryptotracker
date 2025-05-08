@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-900 text-white;
+}
+
+.price-up {
+  @apply text-green-500;
+}
+
+.price-down {
+  @apply text-red-500;
+}
+
+.crypto-table th {
+  @apply px-4 py-2 text-left;
+}
+
+.crypto-table td {
+  @apply px-4 py-3 border-t border-gray-800;
+}
+
+@media (max-width: 768px) {
+  .crypto-table-container {
+    @apply overflow-x-auto;
+  }
+  
+  .crypto-table th, 
+  .crypto-table td {
+    @apply px-2 py-1 text-sm;
+  }
+} 
